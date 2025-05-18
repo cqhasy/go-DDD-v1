@@ -1,0 +1,14 @@
+syntax ="proto3";
+//在此目录生成，包名为service
+option go_package = ".;repository";
+//定义函数
+service Say_hello{
+  rpc Say_hello(Request)returns(Reponse){}
+}
+//定义结构体
+message Request{
+  string requestName =1;
+}
+message Reponse {
+  string reponseMessage=1;
+}

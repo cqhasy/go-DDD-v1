@@ -1,0 +1,20 @@
+GatewayApi:
+  - addr: ""
+    path: ""
+    target: ""
+    Method: ""
+
+  - addr: ""
+    path: ""
+    target: ""
+    Method: ""
+
+log:
+  path:
+etcd:
+  path:
+    -
+
+
+  locate:
+    -
